@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.greentech.wnd.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#33CC99" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="积分规则"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <!-- 签到 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="签到" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/qiandao_info" />
+            <!-- 邀请好友 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="邀请好友" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/yqhy_info" />
+            <!-- 好友注册成功 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="好友注册成功" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/hyzc_info" />
+            <!-- 回答问题 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="回答问题" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/hdwt_info" />
+            <!-- 申请专家 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="申请专家" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/sqzj_info" />
+            <!-- 手机注册成功 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="手机注册成功" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/手机注册成功_info" />
+            <!-- 积分使用方式 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <ImageView style="@style/img_num" />
+
+                <TextView
+                    style="@style/rule_title"
+                    android:text="积分使用方式" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/rule_content"
+                android:text="@string/积分使用方式" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/rule_score.xml -->

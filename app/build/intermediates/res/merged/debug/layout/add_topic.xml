@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tab_1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="@color/title" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fanhui"
+            android:textColor="@color/text_nav"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="专家答疑-提问"
+            android:textColor="@color/text_nav"
+            android:textSize="@dimen/activity_title_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/ask_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="选择农作物类型:"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/expert_product"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageView style="@style/my_linear_apply_text_choice_image" />
+                </RelativeLayout>
+<!-- 
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@color/gray" />
+
+                <RelativeLayout
+                    android:id="@+id/specifyUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="选择专家:"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tv_selectedUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/image"
+                        android:hint="(可选)"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/image"
+                        style="@style/my_linear_apply_text_choice_image" />
+                </RelativeLayout>
+ -->
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_content"
+                    style="@style/my_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:hint="请输入农作物的病虫害症状的详情"
+                    android:inputType="textMultiLine"
+                    android:lines="10" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/btn_takeAphoto"
+                            style="@style/my_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="拍照上传" />
+
+                        <Button
+                            android:id="@+id/btn_pickPicture"
+                            style="@style/my_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="相册选图" />
+                    </LinearLayout>
+
+                    <GridView
+                        android:id="@+id/grid_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:columnWidth="70dp"
+                        android:horizontalSpacing="2dp"
+                        android:listSelector="@color/color_dark_grey"
+                        android:numColumns="auto_fit"
+                        android:verticalSpacing="2dp" >
+                    </GridView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_edit_text"
+            android:background="@color/title"
+            android:text="确认发布"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_bigger" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/add_topic.xml -->

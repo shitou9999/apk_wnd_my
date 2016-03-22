@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <corners android:radius="5dp"/>
+    <solid android:color="#33000000"/>
+    
+
+</shape>
+<!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/drawable/dot_normal.xml -->

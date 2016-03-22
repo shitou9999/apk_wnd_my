@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBECEE"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/title" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="专家答疑"
+            android:textColor="@color/text_nav"
+            android:textSize="@dimen/activity_title_text_size" />
+
+        <Button
+            android:id="@+id/btn_topic_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/title"
+            android:text="提   问   "
+            android:textColor="@color/text_nav"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <com.greentech.wnd.android.view.AutoListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/autolistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-4dp"
+        android:layout_margin="0dp"
+        android:cacheColorHint="@null"
+        android:divider="@drawable/driverline"
+        android:dividerHeight="4dp"
+        android:entries="@null"
+        android:fastScrollEnabled="true"
+        android:headerDividersEnabled="false"
+        android:listSelector="@null"
+        android:scrollbars="vertical" >
+    </com.greentech.wnd.android.view.AutoListView>
+
+</LinearLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/fragment_main_zjdy.xml -->

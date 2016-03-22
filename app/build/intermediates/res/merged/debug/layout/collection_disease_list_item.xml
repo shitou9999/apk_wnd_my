@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/disease_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+         />
+
+    <ImageView
+        android:id="@+id/disease_list_item_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/appreciate_tab_list_item_arrow_small" />
+
+</RelativeLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/collection_disease_list_item.xml -->

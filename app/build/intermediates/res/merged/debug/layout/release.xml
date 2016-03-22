@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#33CC99"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/register_cancel"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/fanhui" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#33CC99"
+            android:gravity="center"
+            android:text="注 册"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_gray" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/edittext_white_bg"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/icon_shouji" />
+
+                <EditText
+                    android:id="@+id/release_tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:hint="@string/res_tel_hint"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/edittext_white_bg"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/text_yzm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:hint="请输入验证码 "
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/yzm"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonstyle"
+                    android:paddingBottom="2dp"
+                    android:paddingRight="3dp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="获取验证码"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/edittext_white_bg"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/icon_password" />
+
+                <EditText
+                    android:id="@+id/release_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:hint="@string/res_pwd_hint"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/buttonstyle"
+                android:text="@string/register_str"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dip"
+                    android:text="@string/user_category"
+                    android:textColor="#333"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/register_user_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dip"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/expert_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_expert_user"
+                        android:textColor="#333"
+                        android:textSize="10dip" />
+
+                    <RadioButton
+                        android:id="@+id/gov_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_gov_user"
+                        android:textColor="#333"
+                        android:textSize="10dip" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+    -->
+    <!--
+     备注信息和地址放在资料完善里面填写
+            <EditText
+                android:id="@+id/release_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:background="@null"
+                android:hint="@string/res_remark_hint"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/res_spinner_province"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/res_spinner_city"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/rese_spinner_district"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+    -->
+
+</LinearLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/release.xml -->

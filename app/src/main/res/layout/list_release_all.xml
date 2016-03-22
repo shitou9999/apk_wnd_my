@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/search" />
+
+        <EditText
+            android:id="@+id/disease_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/back"
+            android:background="@null"
+            android:hint="输入病害或技术信息" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:text="搜 索"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <com.greentech.wnd.android.view.AutoListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gsyw_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:cacheColorHint="@null"
+        android:divider="@drawable/driverline"
+        android:dividerHeight="2px"
+        android:entries="@null"
+        android:fastScrollEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@null"
+        android:scrollbars="vertical" >
+    </com.greentech.wnd.android.view.AutoListView>
+
+</LinearLayout>

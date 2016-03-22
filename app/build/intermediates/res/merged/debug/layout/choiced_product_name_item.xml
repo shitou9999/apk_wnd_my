@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:gravity="center_vertical"
+    android:textColor="@color/black"
+    android:textSize="20sp" />
+<!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/choiced_product_name_item.xml -->

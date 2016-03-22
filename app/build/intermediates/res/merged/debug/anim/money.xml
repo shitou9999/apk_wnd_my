@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+     >
+
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="0.5"
+        android:toAlpha="1.0" />
+
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="0%p"
+        android:fromYDelta="-50%p"
+        android:toYDelta="0%p"
+        android:duration="4000"
+         />
+
+</set><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/anim/money.xml -->

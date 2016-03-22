@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.greentech.wnd.android.view.AutoListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/autolistview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="0dp"
+    android:cacheColorHint="@null"
+    android:divider="@drawable/driverline"
+    android:dividerHeight="2px"
+    android:entries="@null"
+    android:fastScrollEnabled="true"
+    android:headerDividersEnabled="true"
+    android:listSelector="@null"
+    android:scrollbars="vertical" >
+</com.greentech.wnd.android.view.AutoListView><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/autolistview.xml -->

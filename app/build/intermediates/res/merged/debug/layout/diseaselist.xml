@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/progress_bar_loading" />
+
+    <TextView
+        android:id="@+id/diseaseTitle"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:background="@drawable/select_listview_background"
+        android:gravity="center"
+        android:text="@string/disease_name"
+        android:textSize="25sp" />
+
+    <com.greentech.wnd.android.customcontrols.CornerListView
+        android:id="@+id/diseaseDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:background="@drawable/app_list_corner_border" >
+    </com.greentech.wnd.android.customcontrols.CornerListView>
+
+</LinearLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/diseaselist.xml -->

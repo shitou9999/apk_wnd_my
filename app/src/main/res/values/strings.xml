@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">欢迎您</string>
+    <string name="app_name">问农答</string>
+    <string name="home">首页</string>
+    <string name="zjdy">专家答疑</string>
+    <string name="zizhen">智能自诊</string>
+    <string name="mywnd">我</string>
+    <string name="disease_name">病害列表</string>
+    <string name="setting">设置</string>
+    <string name="diseasetreat">智能自诊</string>
+    <string name="exit">安全退出</string>
+    <string name="must_comple">必填</string>
+    <string name="can_comple">选填</string>
+    <string name="str_more">更多</string>
+    <string name="str_jzz">加载中&#8230;</string>
+    <string name="str_gxy">更新于&#8230;</string>
+    <string name="str_expert_type">专家类型</string>
+    <string name="str_agri_product">擅长作物</string>
+    <string name="str_agri_product_gz">关注作物</string>
+    <string name="str_id_picture">添加证件照片:</string>
+    <string name="str_company">单位:</string>
+    <string name="str_job">职位:</string>
+    <string name="str_add">地址:</string>
+    <string name="str_company_hint">输入单位信息</string>
+    <string name="str_job_hint">输入职位</string>
+    <string name="str_add_hint">输入地址信息</string>
+    <!-- 登录 -->
+    <string name="str_user">姓名:</string>
+    <string name="str_user_hint">请输入用户姓名</string>
+    <string name="str_pwd">用户密码</string>
+    <string name="str_pwd_hint">请输入密码</string>
+    <string name="str_login">登&#160;&#160;录</string>
+    <string name="str_register">快速注册</string>
+    <string name="title_activity_login">登陆页面</string>
+    <string name="str_upload_image">上传头像</string>
+    <string name="str_upload_image_camera">相机换图</string>
+    <string name="str_upload_image_gallery">相册换图</string>
+    <!-- 注册 -->
+    <string name="title_release">用户注册页面</string>
+    <string name="res_name">用&#160;&#160;户&#160;&#160;名</string>
+    <string name="ni_name">昵称:</string>
+    <string name="res_name_hint">用 户 名</string>
+    <string name="res_pwd">密码:</string>
+    <string name="res_pwd_hint">密  码</string>
+    <string name="res_tel">手机:</string>
+    <string name="res_tel_hint">输入手机号</string>
+    <string name="res_category">产品类别</string>
+    <string name="res_remark_hint">备注信息  *选填</string>
+    <string name="rese_province">省&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;份</string>
+    <string name="rese_city">城&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;市</string>
+    <string name="rese_district">区&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;县</string>
+    <string name="user_category">用户类型</string>
+    <string name="str_common_user">普通用户</string>
+    <string name="str_expert_user">专家</string>
+    <string name="str_gov_user">政府部门</string>
+    <string name="release_time">注册时间</string>
+    <string name="register_str">注册</string>
+    <string name="str_cancel">取消</string>
+    <string name="select_value">选择类别</string>
+    <string name="str_complete_data">完善资料</string>
+    <string name="str_apply_expert">申请成为专家</string>
+    <string name="str_apply">提交</string>
+
+    <!-- 自定义组件 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">松开可以刷新</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="load_full">已加载全部</string>
+    <string name="no_data">暂无数据</string>
+    <string name="more">加载中</string>
+
+    <!-- 消除警告，可忽略 -->
+    <string name="d">图片描述</string>
+    <string name="qiandao_info">签到第1天+2积分；签到第2天+4积分；签到第3天+6积分；签到第4天+8积分；签到第5天以后每天+10积分；一旦断签从+2积分重新开始</string>
+    <string name="yqhy_info">每天首次邀请好友+10积分；</string>
+    <string name="hyzc_info">填写好友邀请码，您和您的好友各+200积分。</string>
+    <string name="hdwt_info">您在10分钟内回答问题被采纳+300积分\n
+您的答案被提问者采纳，+200积分
+如果您一天内多次被采纳，说明您技术一流，帮到了很多人，但该方案一天只奖励您一次哦。</string>
+    <string name="sqzj_info">申请专家，并通过审核+1000积分</string>
+    <string name="手机注册成功_info">手机注册成功+100积分</string>
+    <string name="积分使用方式">100积分等同于5块钱，积分只能在本公司兑换商品(如苹果手机等，敬请期待)，不可兑换成现金</string>
+
+</resources>

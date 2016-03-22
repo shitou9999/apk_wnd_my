@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:singleLine="true"
+    android:textSize="20dp"
+    android:textColor="#333" >
+
+</CheckedTextView><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/spinner_item.xml -->

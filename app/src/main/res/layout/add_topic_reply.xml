@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tab_1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="@color/title" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fanhui"
+            android:textColor="@color/text_nav"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="XXX的提问"
+            android:textColor="@color/text_nav"
+            android:textSize="@dimen/activity_title_text_size" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/dialog_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:layout_weight="1" >
+    </ListView>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <com.greentech.wnd.android.view.CircleImageView
+                        android:id="@+id/head"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/header_gray" />
+
+                    <TextView
+                        android:id="@+id/tv_question"
+                        style="@style/my_text_view_list_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/head"
+                        android:background="@drawable/chat_asker_bg"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="10dp"
+                         />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/reply_relative"
+                    android:layout_marginTop="10dp" >
+
+                    <com.greentech.wnd.android.view.CircleImageView
+                        android:id="@+id/myhead"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/header_gray" />
+
+                    <TextView
+                        android:id="@+id/topic_reply"
+                        style="@style/my_text_view_list_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/myhead"
+                        android:background="@drawable/chat_replier_bg"
+                        android:gravity="center_vertical"
+                        android:paddingRight="10dp"
+                         />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    -->
+
+    <RelativeLayout
+        android:id="@+id/needReply"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <EditText
+            android:id="@+id/et_step"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/app_list_corner_border"
+            android:gravity="center_vertical|left"
+            android:hint="病症简单描述+可能的病虫害+防治措施"
+            android:inputType="textMultiLine"
+            android:padding="@dimen/padding_edit_text"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/title"
+            android:text="发送" />
+    </RelativeLayout>
+
+</LinearLayout>

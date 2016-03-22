@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="menutions_down_menu">
+	    <item>病害预警</item>
+	    <item>通知公告</item>
+	    <item>惠农政策</item>
+	</string-array>
+    <!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_color_edit_text">#F8F8F8</color>
+    <color name="bg_list_row">@android:color/white</color>
+    <color name="bg_nav">#18B4ED</color>
+    <color name="bg_tab_1">#FCFCFC</color>
+    <color name="bg_tab_2">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0099FF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_dark_grey">#808080</color>
+    <color name="color_login">#F5F5F5</color>
+    <color name="color_user">#E9967A</color>
+    <color name="custom_color">#fefaeb</color>
+    <color name="custom_grey">#333</color>
+    <color name="darkgreen">#00CC00</color>
+    <color name="gold">#fdb933</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="gray_white">#fffef9</color>
+    <color name="green">#f0f0</color>
+    <color name="green_pressed">#99FF99</color>
+    <color name="pink">#FC3DFC</color>
+    <color name="radiobg_normal">#555555</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="red">#f00</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="text_color_caption">#2A4967</color>
+    <color name="text_drawer_left">@android:color/white</color>
+    <color name="text_drawer_right">@android:color/white</color>
+    <color name="text_nav">@android:color/white</color>
+    <color name="text_selected_nav">@color/bg_nav</color>
+    <color name="text_selected_tab">@color/text_selected_nav</color>
+    <color name="text_tab">#7F7F7F</color>
+    <color name="title">#33CC99</color>
+    <color name="top_color">#4C4D52</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">#ffffff</color>
+    <color name="white_gray">#eaebec</color>
+    <color name="white_green">#cde6c7</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="SlidingSwitcherView"><attr format="boolean" name="auto_play"/></declare-styleable>
+    <!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_title_height">50dp</dimen>
+    <dimen name="activity_title_text_size">22sp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="border_radius_edit_text">5dp</dimen>
+    <dimen name="dip2pix">1.0dp</dimen>
+    <dimen name="drawer_left_margin_horizontal">10dp</dimen>
+    <dimen name="drawer_left_margin_vertical">10dp</dimen>
+    <dimen name="margin_edit_text">@dimen/border_radius_edit_text</dimen>
+    <dimen name="padding_button">10dp</dimen>
+    <dimen name="padding_edit_text">@dimen/border_radius_edit_text</dimen>
+    <dimen name="popmenu_width">100.0dp</dimen>
+    <dimen name="popmenu_yoff">0dp</dimen>
+    <dimen name="tab_img_size_height">30dp</dimen>
+    <dimen name="tab_img_size_width">30dp</dimen>
+    <dimen name="tab_text_size">12sp</dimen>
+    <dimen name="text_size_bigger">18sp</dimen>
+    <dimen name="text_size_normal">15sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">问农答</string>
+    <string name="can_comple">选填</string>
+    <string name="d">图片描述</string>
+    <string name="disease_name">病害列表</string>
+    <string name="diseasetreat">智能自诊</string>
+    <string name="exit">安全退出</string>
+    <string name="hdwt_info">您在10分钟内回答问题被采纳+300积分\n
+您的答案被提问者采纳，+200积分
+如果您一天内多次被采纳，说明您技术一流，帮到了很多人，但该方案一天只奖励您一次哦。</string>
+    <string name="hello_world">欢迎您</string>
+    <string name="home">首页</string>
+    <string name="hyzc_info">填写好友邀请码，您和您的好友各+200积分。</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="load_full">已加载全部</string>
+    <string name="more">加载中</string>
+    <string name="must_comple">必填</string>
+    <string name="mywnd">我</string>
+    <string name="ni_name">昵称:</string>
+    <string name="no_data">暂无数据</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="qiandao_info">签到第1天+2积分；签到第2天+4积分；签到第3天+6积分；签到第4天+8积分；签到第5天以后每天+10积分；一旦断签从+2积分重新开始</string>
+    <string name="register_str">注册</string>
+    <string name="release_time">注册时间</string>
+    <string name="release_to_refresh">松开可以刷新</string>
+    <string name="res_category">产品类别</string>
+    <string name="res_name">用  户  名</string>
+    <string name="res_name_hint">用 户 名</string>
+    <string name="res_pwd">密码:</string>
+    <string name="res_pwd_hint">密  码</string>
+    <string name="res_remark_hint">备注信息  *选填</string>
+    <string name="res_tel">手机:</string>
+    <string name="res_tel_hint">输入手机号</string>
+    <string name="rese_city">城        市</string>
+    <string name="rese_district">区        县</string>
+    <string name="rese_province">省        份</string>
+    <string name="select_value">选择类别</string>
+    <string name="setting">设置</string>
+    <string name="sqzj_info">申请专家，并通过审核+1000积分</string>
+    <string name="str_add">地址:</string>
+    <string name="str_add_hint">输入地址信息</string>
+    <string name="str_agri_product">擅长作物</string>
+    <string name="str_agri_product_gz">关注作物</string>
+    <string name="str_apply">提交</string>
+    <string name="str_apply_expert">申请成为专家</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_common_user">普通用户</string>
+    <string name="str_company">单位:</string>
+    <string name="str_company_hint">输入单位信息</string>
+    <string name="str_complete_data">完善资料</string>
+    <string name="str_expert_type">专家类型</string>
+    <string name="str_expert_user">专家</string>
+    <string name="str_gov_user">政府部门</string>
+    <string name="str_gxy">更新于…</string>
+    <string name="str_id_picture">添加证件照片:</string>
+    <string name="str_job">职位:</string>
+    <string name="str_job_hint">输入职位</string>
+    <string name="str_jzz">加载中…</string>
+    <string name="str_login">登  录</string>
+    <string name="str_more">更多</string>
+    <string name="str_pwd">用户密码</string>
+    <string name="str_pwd_hint">请输入密码</string>
+    <string name="str_register">快速注册</string>
+    <string name="str_upload_image">上传头像</string>
+    <string name="str_upload_image_camera">相机换图</string>
+    <string name="str_upload_image_gallery">相册换图</string>
+    <string name="str_user">姓名:</string>
+    <string name="str_user_hint">请输入用户姓名</string>
+    <string name="title_activity_login">登陆页面</string>
+    <string name="title_release">用户注册页面</string>
+    <string name="user_category">用户类型</string>
+    <string name="yqhy_info">每天首次邀请好友+10积分；</string>
+    <string name="zizhen">智能自诊</string>
+    <string name="zjdy">专家答疑</string>
+    <string name="手机注册成功_info">手机注册成功+100积分</string>
+    <string name="积分使用方式">100积分等同于5块钱，积分只能在本公司兑换商品(如苹果手机等，敬请期待)，不可兑换成现金</string>
+    <!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="dot_style">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+    <style name="img_num">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:src">@drawable/lv_rno</item>
+        
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置dialog背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="my_button" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">@dimen/padding_button</item>
+        <item name="android:layout_margin">@dimen/margin_edit_text</item>
+    </style>
+    <style name="my_edit_text" parent="@android:style/TextAppearance.Widget.EditText">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">@dimen/border_radius_edit_text</item>
+        <item name="android:layout_margin">@dimen/margin_edit_text</item>
+    </style>
+    <style name="my_linear_apply">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+    <style name="my_linear_apply_edit">
+       <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/custom_grey</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="my_linear_apply_text">
+       <item name="android:textSize">@dimen/activity_title_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="my_linear_apply_text_choice">
+       <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/must_comple</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="my_linear_apply_text_choice_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/a_right</item>
+    </style>
+    <style name="my_text_before_input" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_caption</item>
+        <item name="android:padding">@dimen/border_radius_edit_text</item>
+        <item name="android:layout_margin">@dimen/margin_edit_text</item>
+    </style>
+    <style name="my_text_view_list_item" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/custom_grey</item>
+    </style>
+    <style name="my_text_view_list_item_small" parent="@style/my_text_view_list_item">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <style name="rule_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">27dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="rule_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textColor">@color/darkgreen</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>

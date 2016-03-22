@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:background="@color/blue" />
+
+    <Button
+        android:id="@+id/change_header_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/header"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/app_list_corner_round"
+        android:text="@string/str_upload_image_gallery"
+        android:textColor="@color/white"
+        android:onClick="gallery"
+         />
+    <Button
+        android:id="@+id/change_header_camera"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/change_header_gallery"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/app_list_corner_round"
+        android:text="@string/str_upload_image_camera"
+        android:textColor="@color/white"
+        android:onClick="camera"
+         />
+    
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/change_header_camera"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/app_list_corner_round"
+        android:text="@string/str_upload_image"
+        android:textColor="@color/white"
+        android:onClick="upload"
+         />
+
+</RelativeLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/settings.xml -->

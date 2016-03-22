@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+	<color name="red">#f00</color>
+	<color name="green">#f0f0</color>
+	<color name="darkgreen">#00CC00</color>
+ 	<color name="color_dark_grey">#808080</color> 
+ 	<color name="color_black">#000000</color> 
+ 	<color name="custom_color">#fefaeb</color>
+ 	<color name="custom_grey">#333</color>
+ 	<color name="pink">#FC3DFC</color>
+ 	<color name="color_user">#E9967A</color>
+ 	<color name="black">#000000</color>
+ 	<color name="blue">#0099FF</color>
+ 	<color name="green_pressed">#99FF99</color>
+ 	<color name="gray">#CCCCCC</color>
+ 	<color name="red_pressed">#FF6666</color>
+ 	<color name="gray_white">#fffef9</color>
+ 	<color name="title">#33CC99</color>
+ 	<color name="white_green">#cde6c7</color>
+ 	<color name="white_gray">#eaebec</color>
+ 	<color name="gold">#fdb933</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="bg_nav">#18B4ED</color>
+    <color name="text_nav">@android:color/white</color>
+    <color name="text_selected_nav">@color/bg_nav</color>
+    <color name="bg_tab_1">#FCFCFC</color>
+    <!-- <color name="bg_tab_2">#F9F9F9</color> -->
+    <color name="bg_tab_2">#E0E0E0</color>
+    <color name="text_tab">#7F7F7F</color>
+    <color name="text_selected_tab">@color/text_selected_nav</color>
+    <color name="bg_list_row">@android:color/white</color>
+    <color name="text_drawer_left">@android:color/white</color>
+    <color name="text_drawer_right">@android:color/white</color>
+    
+ 	
+ 	<color name="top_color">#4C4D52</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+    
+ 	<color name="color_login">#F5F5F5</color>
+ 	<color name="text_color_caption">#2A4967</color>
+ 	<color name="bg_color_edit_text">#F8F8F8</color>
+</resources>

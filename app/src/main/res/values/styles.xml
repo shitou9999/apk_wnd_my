@@ -1,0 +1,133 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="dot_style">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置dialog背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- 输入框前面的标题TextView样式 -->
+    <style name="my_text_before_input" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_caption</item>
+        <item name="android:padding">@dimen/border_radius_edit_text</item>
+        <item name="android:layout_margin">@dimen/margin_edit_text</item>
+    </style>
+    
+    <!-- 按钮样式 -->
+    <style name="my_button" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">@dimen/padding_button</item>
+        <item name="android:layout_margin">@dimen/margin_edit_text</item>
+    </style>
+    
+    <!-- 输入框样式 -->
+    <style name="my_edit_text" parent="@android:style/TextAppearance.Widget.EditText">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">@dimen/border_radius_edit_text</item>
+        <item name="android:layout_margin">@dimen/margin_edit_text</item>
+    </style>
+    
+    <!-- 列表文字样式 -->
+    <style name="my_text_view_list_item" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/custom_grey</item>
+    </style>
+    
+    
+    <style name="my_linear_apply">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+    
+    <style name="my_linear_apply_text">
+       <item name="android:textSize">@dimen/activity_title_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="my_linear_apply_edit">
+       <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/custom_grey</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="my_linear_apply_text_choice">
+       <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/must_comple</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="my_linear_apply_text_choice_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/a_right</item>
+    </style>
+    
+    <style name="my_text_view_list_item_small" parent="@style/my_text_view_list_item">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <!-- 积分规则里面的小圆圈 -->
+    <style name="img_num">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:src">@drawable/lv_rno</item>
+        
+    </style>
+    <style name="rule_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textColor">@color/darkgreen</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="rule_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">27dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

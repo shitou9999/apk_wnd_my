@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/fanhui" />
+
+         <TextView
+            android:id="@+id/product_chiose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:lines="1"
+            android:textColor="@color/white"
+            android:textSize="23sp" 
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/gsxx_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.greentech.wnd.android.view.scrollview.ScrollListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gsyw_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/app_list_corner_border"
+            android:layout_margin="5dp"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:dividerHeight="1px"
+            android:entries="@null"
+            android:fastScrollEnabled="true"
+            android:headerDividersEnabled="true"
+            android:listSelector="@null"
+            android:scrollbars="vertical" >
+        </com.greentech.wnd.android.view.scrollview.ScrollListView>
+    </LinearLayout>
+
+</LinearLayout>

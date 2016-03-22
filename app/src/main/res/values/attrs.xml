@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 此处定义了多个attr属性 -->
+    <eat-comment />
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+       <!-- <attr name="android:src"> overide父类的android:src属性，取得ImageView的src </attr> -->
+    </declare-styleable>
+
+
+    <declare-styleable name="SlidingSwitcherView">
+        <attr name="auto_play" format="boolean"/>
+    </declare-styleable>
+
+</resources>

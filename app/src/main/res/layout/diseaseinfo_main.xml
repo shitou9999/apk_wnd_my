@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/title" >
+
+        <TextView
+            android:id="@+id/textTitle_main"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_favo_no"
+            android:text="收藏" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/add_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:listSelector="#00000000"
+                android:horizontalSpacing="5dp"
+                android:verticalSpacing="5dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth" >
+            </GridView>
+
+            <WebView
+                android:id="@+id/textContent_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/textborder"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

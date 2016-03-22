@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\ASProject\apk_wnd_my\app\src\main\assets"><file name="readme.txt" path="D:\ASProject\apk_wnd_my\app\src\main\assets\readme.txt"/></source></dataSet><dataSet config="debug"><source path="D:\ASProject\apk_wnd_my\app\src\debug\assets"/></dataSet></merger>

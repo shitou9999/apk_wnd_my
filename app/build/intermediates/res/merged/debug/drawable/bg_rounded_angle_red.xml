@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:drawable="@drawable/bg_rounded_angle_red_pressed"></item>
+    <item android:drawable="@drawable/bg_rounded_angle_red_focus"/>
+</selector>
+<!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/drawable/bg_rounded_angle_red.xml -->

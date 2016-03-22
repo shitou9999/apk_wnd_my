@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tab_1"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <include layout="@layout/progress_bar_loading" />
+
+    <Spinner
+        android:id="@+id/selectAgriProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ExpandableListView
+        android:id="@+id/lvExp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#f4f4f4"
+        android:cacheColorHint="#00000000"
+        android:childDivider="#00000000"
+        android:choiceMode="multipleChoice"
+        android:divider="#00000000"
+        android:dividerHeight="2dp"
+        android:scrollbarSize="0dp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_rounded_angle_red"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="提交自诊"
+        android:textSize="16sp" />
+
+</LinearLayout><!-- From: file:/D:/ASProject/apk_wnd_my/app/src/main/res/layout/fragment_disease_self_diagnose.xml -->

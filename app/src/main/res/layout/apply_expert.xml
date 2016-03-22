@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/str_apply_expert"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/str_apply"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 姓名 -->
+
+            <RelativeLayout style="@style/my_linear_apply" >
+
+                <TextView
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_user" />
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/my_linear_apply_edit"
+                    android:gravity="right|center"
+                    android:hint="@string/must_comple" />
+            </RelativeLayout>
+
+            <!-- 专家类型 -->
+
+            <RelativeLayout
+                android:id="@+id/expert_type"
+                style="@style/my_linear_apply" >
+
+                <TextView
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_expert_type" />
+
+                <TextView
+                    android:id="@+id/expert_text_type"
+                    style="@style/my_linear_apply_text_choice" />
+
+                <ImageView style="@style/my_linear_apply_text_choice_image" />
+            </RelativeLayout>
+            <!-- 擅长作物 -->
+
+            <RelativeLayout
+                android:id="@+id/agriproduct"
+                style="@style/my_linear_apply" >
+
+                <TextView
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_agri_product" />
+
+                <TextView
+                    android:id="@+id/expert_product"
+                    style="@style/my_linear_apply_text_choice" />
+
+                <ImageView style="@style/my_linear_apply_text_choice_image" />
+            </RelativeLayout>
+            <!-- 单位 -->
+
+            <RelativeLayout
+                style="@style/my_linear_apply"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_company" />
+
+                <EditText
+                    android:id="@+id/company"
+                    style="@style/my_linear_apply_edit"
+                    android:gravity="right|center"
+                    android:hint="@string/str_company_hint" />
+            </RelativeLayout>
+
+            <!-- 职位 -->
+
+            <RelativeLayout
+                style="@style/my_linear_apply"
+                android:layout_marginTop="2dp" >
+
+                <TextView
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_job" />
+
+                <EditText
+                    android:id="@+id/job"
+                    style="@style/my_linear_apply_edit"
+                    android:gravity="right|center"
+                    android:hint="@string/str_job_hint" />
+            </RelativeLayout>
+            <!-- 地址 -->
+
+            <RelativeLayout
+                style="@style/my_linear_apply"
+                android:layout_marginTop="2dp" >
+
+                <TextView
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_add" />
+
+                <EditText
+                    android:id="@+id/address"
+                    style="@style/my_linear_apply_edit"
+                    android:gravity="right|center"
+                    android:hint="@string/str_add_hint" />
+            </RelativeLayout>
+            <!-- 添加证件照片 -->
+
+            <RelativeLayout
+                android:id="@+id/agriproduct"
+                style="@style/my_linear_apply" >
+	
+                <TextView
+                    android:id="@+id/pic_text"
+                    style="@style/my_linear_apply_text"
+                    android:text="@string/str_id_picture" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/pic_text"
+                    android:text="(名片/证件等)"
+                    android:textColor="@color/black" />
+
+                <TextView style="@style/my_linear_apply_text_choice" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:id="@+id/frame"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1" >
+
+                    <ImageButton
+                        android:id="@+id/front_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/pic_photo"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/front_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1" >
+
+                    <ImageButton
+                        android:id="@+id/back_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/pic_photo"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/back_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="简介:"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:id="@+id/remark"
+                    android:hint="例如:技术成果以及专长+工作经历+论文著作等"
+                    android:lines="10" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

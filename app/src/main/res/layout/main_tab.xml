@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 主页tab -->
+
+    <LinearLayout
+        android:id="@+id/tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/bg_tab"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 首页按钮 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/tab_img_size_width"
+                android:layout_height="@dimen/tab_img_size_height"
+                android:background="@drawable/btn_home_hover" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+        <!-- 专家答疑按钮 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/tab_img_size_width"
+                android:layout_height="@dimen/tab_img_size_height"
+                android:background="@drawable/btn_zjdy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zjdy"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+        <!-- 自诊按钮 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/tab_img_size_width"
+                android:layout_height="@dimen/tab_img_size_height"
+                android:background="@drawable/btn_zizhen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zizhen"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+        <!-- 我按钮 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/tab_img_size_width"
+                android:layout_height="@dimen/tab_img_size_height"
+                android:background="@drawable/btn_mine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mywnd"
+                android:textSize="@dimen/tab_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,429 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:2:1-289:12
+	package
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:6:5-32
+	android:versionCode
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:17:5-18:23
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:20:5-69
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:20:22-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:22:5-23:23
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:25:5-26:23
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:25:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:28:5-29:23
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:28:22-73
+uses-permission#android.permission.CAMERA
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:31:22-62
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:32:5-84
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:32:22-81
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:33:5-85
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:33:22-82
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:34:22-78
+application
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:37:5-287:19
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:41:9-41
+	android:allowBackup
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:39:9-36
+	android:icon
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:40:9-44
+	android:persistent
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:42:9-34
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:38:9-63
+uses-library#android.test.runner
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:43:9-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:43:23-57
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:45:9-47:56
+	android:value
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:47:13-53
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:46:13-52
+activity#com.greentech.wnd.android.WelcomActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:49:9-58:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:51:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:52:13-70
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:50:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:56:27-74
+activity#com.greentech.wnd.android.MainActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:59:9-63:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:61:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:62:13-70
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:60:13-41
+activity#com.greentech.wnd.android.TitleAndImageGridActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:66:9-70:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:68:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:69:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:67:13-54
+activity#com.greentech.wnd.android.DiseaseInformationActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:72:9-76:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:74:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:75:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:73:13-55
+activity#com.greentech.wnd.android.ShowDiseaseImageActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:78:9-82:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:80:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:81:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:79:13-53
+activity#com.greentech.wnd.android.DiseaseListActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:84:9-88:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:86:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:87:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:85:13-48
+activity#com.greentech.wnd.android.RecommendActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:90:9-94:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:92:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:93:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:91:13-46
+activity#com.greentech.wnd.android.MyCardActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:96:9-100:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:98:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:99:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:97:13-43
+activity#com.greentech.wnd.android.RulesOfScore
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:102:9-106:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:104:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:105:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:103:13-41
+activity#com.greentech.wnd.android.AskAndAnswerActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:108:9-112:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:110:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:111:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:109:13-49
+activity#com.greentech.wnd.android.DiseaseInfoActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:114:9-118:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:116:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:117:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:115:13-48
+activity#com.greentech.wnd.android.MainTechListActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:120:9-124:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:122:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:123:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:121:13-49
+activity#com.greentech.wnd.android.AutognosisActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:134:9-138:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:136:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:137:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:135:13-47
+activity#com.greentech.wnd.android.GuideActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:140:9-144:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:142:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:143:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:141:13-42
+activity#com.greentech.wnd.android.ShowImageActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:146:9-150:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:148:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:149:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:147:13-46
+activity#com.greentech.wnd.android.DiseaseInfoMainActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:153:9-157:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:155:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:156:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:154:13-52
+activity#com.greentech.wnd.android.NoticeListActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:159:9-163:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:161:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:162:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:160:13-47
+activity#com.greentech.wnd.android.SettingActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:165:9-169:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:167:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:168:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:166:13-44
+activity#com.greentech.wnd.android.DataModificationActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:171:9-175:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:173:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:174:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:172:13-53
+activity#com.greentech.wnd.android.ApplyExpertActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:177:9-181:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:179:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:180:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:178:13-48
+activity#com.greentech.wnd.android.CollectActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:183:9-187:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:185:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:186:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:184:13-44
+activity#com.greentech.wnd.android.ExpertTypeActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:189:9-193:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:191:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:192:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:190:13-47
+activity#com.greentech.wnd.android.TypeOfPhotoActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:195:9-199:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:197:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:198:13-82
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:196:13-48
+activity#com.greentech.wnd.android.ErWeiMaActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:201:9-205:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:203:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:204:13-82
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:202:13-44
+activity#com.greentech.wnd.android.ExpertProduct
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:207:9-211:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:209:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:210:13-75
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:208:13-42
+receiver#com.greentech.wnd.android.receiver.FileClearReceiver
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:214:9-220:20
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:214:19-86
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:215:13-219:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:216:17-80
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:216:25-77
+data
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:218:17-50
+	android:scheme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:218:23-47
+activity#com.greentech.wnd.android.NoticeDetailActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:222:9-226:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:224:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:225:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:223:13-74
+activity#com.greentech.wnd.android.TechListActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:227:9-231:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:229:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:230:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:228:13-70
+activity#com.greentech.wnd.android.TechDetailActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:232:9-236:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:234:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:235:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:233:13-72
+activity#com.greentech.wnd.android.AddNoticeActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:237:9-241:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:239:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:240:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:238:13-71
+activity#com.greentech.wnd.android.AddTechActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:242:9-246:20
+	android:screenOrientation
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:244:13-49
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:245:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:243:13-69
+activity#com.greentech.wnd.android.LoginActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:247:9-251:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:249:13-57
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:250:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:248:13-67
+activity#com.greentech.wnd.android.RegisterActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:252:9-256:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:254:13-57
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:255:13-66
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:253:13-70
+activity#com.greentech.wnd.android.AddTopicActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:257:9-261:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:259:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:260:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:258:13-70
+activity#com.greentech.wnd.android.YzmActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:262:9-266:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:264:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:265:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:263:13-39
+activity#com.greentech.wnd.android.ExpertListActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:267:9-271:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:269:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:270:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:268:13-72
+activity#com.greentech.wnd.android.TopicDetailActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:272:9-276:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:274:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:275:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:273:13-73
+activity#com.greentech.wnd.android.TopicReplyDetailActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:277:9-281:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:279:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:280:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:278:13-78
+activity#com.greentech.wnd.android.AddTopicReplyActivity
+ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:282:9-286:20
+	android:label
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:284:13-45
+	android:theme
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:285:13-60
+	android:name
+		ADDED from D:\ASProject\apk_wnd_my\app\src\main\AndroidManifest.xml:283:13-75

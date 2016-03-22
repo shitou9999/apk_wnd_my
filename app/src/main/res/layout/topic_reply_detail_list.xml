@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tab_1"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.greentech.wnd.android">
+
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="@color/title" >
+
+        <Button android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fanhui"
+            android:textColor="@color/text_nav"
+            android:textSize="18sp" 
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="XXX的提问"
+            android:textColor="@color/text_nav"
+            android:textSize="@dimen/activity_title_text_size" />
+        
+    </RelativeLayout>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1" >
+
+	    <!-- 各楼回复 -->
+	    <com.greentech.wnd.android.view.AutoListView
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/autolistview"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_margin="0dp"
+		    android:cacheColorHint="@null"
+		    android:divider="@drawable/driverline"
+		    android:dividerHeight="2px"
+		    android:entries="@null"
+		    android:fastScrollEnabled="true"
+		    android:headerDividersEnabled="true"
+		    android:listSelector="@null"
+		    android:scrollbars="vertical" >
+		</com.greentech.wnd.android.view.AutoListView>
+	</LinearLayout>
+	
+	
+    <!-- 底部按钮区-->
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <EditText 
+            android:id="@+id/et_reply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|top"
+            android:hint=""
+            android:inputType="textMultiLine"
+            android:padding="@dimen/padding_edit_text"
+            android:background="@null"
+            />
+	    <Button
+            android:id="@+id/btn_reply"
+            style="@style/my_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_button"
+            android:background="@color/blue"
+    		android:textColor="@color/white"
+            android:text="发表" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+	<string-array name="menutions_down_menu">
+	    <item>病害预警</item>
+	    <item>通知公告</item>
+	    <item>惠农政策</item>
+	</string-array>
+</resources>
