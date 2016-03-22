@@ -15,7 +15,7 @@ import com.greentech.wnd.android.R;
 
 public class AdapterForSpinner extends BaseAdapter implements SpinnerAdapter{
 
-	
+	//dskdjssssssssssssssssssssss
 	private Context context;
     private LayoutInflater inflater;
     private List<String> strings;
